@@ -1,0 +1,28 @@
+/*
+features (two-dimensional table ,positioned,for explicit position of an element)
+,
+defination-flexible responsive layout structure without using float or positioning  */
+
+.container{
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    justify-content: flex-end;
+
+
+    background-color: blueviolet;
+    color: white;
+}
+
+.container > div{
+    margin: 10px;
+    width: 50px;
+    padding: 10px;
+    text-align: center;
+    line-height: 60px;
+}

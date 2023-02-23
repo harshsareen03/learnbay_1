@@ -1,0 +1,18 @@
+.bordersss{
+    /* border-style: dotted; */
+    /* border-style: dashed; */
+    /* border-style: solid; */
+    /* border-style: groove; */
+    /* border-style: ridge; */
+    /* border-style: inset; */
+    /* border-style: outset; */
+    /* border-style: none; */
+    /* border-style: hidden; */
+    /* border-style: dotted dashed solid double; */
+
+    /* border-width: 5px 10px 15px ;
+    border-color: red; */
+    border: solid rgb(0, 0, 0) 10px;
+
+}
+

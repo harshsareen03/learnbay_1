@@ -1,0 +1,29 @@
+.first{
+    /* background-color: yellow;
+    width: 200px;
+    height: 75px; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+    /* overflow-x: hidden; */
+    /* overflow-y: scroll; */
+
+}
+
+img{
+    /* float: right; */
+    /* float: none; */
+    /* float: left; */
+}
+
+.one{
+    float: left;
+    padding: 10px;
+    
+
+}
+.two{
+    /* clear: left; */
+    padding: 10px;
+    /* clear: left; */
+}

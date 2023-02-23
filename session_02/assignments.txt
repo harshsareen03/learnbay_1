@@ -1,0 +1,8 @@
+1)make one document where you have to write bio about
+any legend personality with there profile image and it should looks
+in perfect format.
+
+2) build one registration and login form 
+
+3)make on resume type of format and write your strengths and weakness in a table 
+format.

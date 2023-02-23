@@ -1,0 +1,67 @@
+/* 1) display adjustments */
+h1{
+    /* display: none; */
+    /* display: inline; */
+    /* display: block; */
+}
+/* 2) visibility adjustments */
+a{
+    /* display: block; */
+    /* visibility: hidden; */
+    
+    
+}
+
+/*3) width adjustments */
+
+/* p{
+    margin: 10px;
+    border: 2px solid red;
+    width: 200px;
+} */
+
+/* 4)position properties  */
+
+.new{
+    /* position: static; */
+    /* position: relative; */
+    /* position: fixed;
+    position: relative; */
+    /* left: 30px; */
+    /* width: 400px;
+    height: 200px; */
+    /* right: 45px; */
+    /* border: 1px solid red;
+    background-color: aqua; */
+
+
+
+}
+.second{
+    /* position:absolute ;
+    top: 80px; */
+    /* right: 10px; */
+    /* left: 10px; */
+    /* width: 300px; */
+    /* width: 100px;
+    height: 200px;
+    border: 3px red solid; */
+
+}
+/* .stickp{
+    position: sticky;
+    top: 0;
+    background-color: aqua;
+    /* width: ; */
+/* } */
+
+img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* background-color: blue; */
+    z-index: -1;
+}
+p{
+    color: aquamarine;
+}

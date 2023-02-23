@@ -1,0 +1,15 @@
+div h1{
+    background-color: aqua;
+}
+
+/* div > p{
+    background-color: aquamarine;
+} */
+
+/* div + p{
+    background-color: aqua;
+} */
+
+div ~ p{
+    background-color: aqua;
+}

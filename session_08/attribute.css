@@ -1,0 +1,21 @@
+/* [title~=reals]{
+    border: 2px red solid;
+} */
+ [class~='op']{
+    border: 2px red solid;
+} 
+
+
+/* [alt~=img]{
+    border: 2px red solid;
+} */
+
+/* [class^="op"]{
+    background-color: red;
+} */
+/* [class$="op"]{
+    background-color: red;
+} */
+/* [class*="op"]{
+    background-color: red;
+} */

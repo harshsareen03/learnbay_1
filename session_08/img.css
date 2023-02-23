@@ -1,0 +1,40 @@
+/* .gallery{ */
+    /* position: absolute; */
+    /* margin: 5px;
+    border: 2px solid black;
+    float: left; */
+    /* left: 100px; */
+    /* right: 100px; */
+    /* width: 267px;
+    cursor: pointer;
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+/* }
+
+/* .gallery:hover{
+    border: 2px solid red;
+}  */
+
+#home{
+    width: 46px;
+    height: 20px;
+    background: url('bg.jfif');
+    cursor: pointer;
+
+}
+
+#next{
+    width: 46px;
+    height: 44px;
+    background: url('image_1.jpg') ;
+    cursor: pointer;
+
+}
+#ui{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: azure;
+    transform: translate(10%,20%);
+}

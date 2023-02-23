@@ -1,0 +1,17 @@
+p{
+    background-color: blue !important;
+}
+
+#one{
+    background-color: blueviolet ;
+}
+.two{
+    background-color: red  ;
+}
+
+
+/* important= the !important rule in css 
+is use to add more importance to property/value than normal
+
+in fact if you use the important rule it will override all pervious styling
+rule for that specific property on that element */

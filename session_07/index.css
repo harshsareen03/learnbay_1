@@ -1,0 +1,19 @@
+.first{
+    background-color: aqua;
+    margin: 10px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+}
+
+.form{
+    border: 2px red solid;
+    text-align: center;
+    width: 30%;
+    display: block;
+    right: 596px;
+    /* padding-right: 10px; */
+    position: absolute;
+}

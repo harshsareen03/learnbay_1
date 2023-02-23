@@ -1,0 +1,56 @@
+body{
+    /* margin: 0px; */
+    /* padding: 0px; */
+    
+}
+/* #headinone{
+    /* text-align: center; */
+    /* justify-content: center; */
+
+/* } */
+.logo{ 
+    float: right;
+    background-color: rgb(255, 0, 0);
+ 
+ } 
+
+.container-heading{
+    overflow: hidden;
+    border: 1px black solid;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+.container-heading a{
+    float:left;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    /* border: 2px black solid; */
+    /* border-radius: 5px; */
+    
+
+}
+
+.container-heading a:hover{
+    /* background-color: black; */
+    color: aqua;
+    background-color: rgb(159, 159, 26);
+    font-size: small;
+    /* background-image: url('https://pngimg.com/uploads/nike/nike_PNG11.png'); */
+}
+
+@media screen  and (max-width:500px){
+    .container-heading a{
+        float: none;
+        display: block;
+        text-align: left;
+
+    }
+
+    
+} 
+
