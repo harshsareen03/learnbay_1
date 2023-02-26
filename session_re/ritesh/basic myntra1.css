@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.cover{
+    position: relative;
+    bottom: 2px;
+
+
+}
+nav .navbar .cover{
+    padding: 50px;
+    position: relative
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+nav .nav-bar{
+    position: relative;
+    height: 100%;
+    max-width: 550px;
+    width: 100%;
+    margin: 5px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav-bar .sidebarOpen{
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
+}
+.nav-bar .nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .nav-links li{
+    margin: 1px ;
+    list-style: none;
+}
+
+.nav-links li a{
+    position: relative;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 15px;
+}
+.nav-bar .darkLight-searchBox{
+    display: flex;
+    align-items: center;
+}
+
+.darkLight-searchBox .dark-light,
+.darkLight-searchBox .searchToggle{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    margin: 0px 10px;
+    
+}
+
+.dark-light i,
+.searchToggle i{
+    display: flex;
+    left: 1300px;
+    position: relative;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.searchBox .search-field{
+    position: relative;
+    bottom: 105px;
+    right: -750px;
+    height: 40px;
+    width: 420px;
+    display: flex;
+    align-items: center;
+    padding: -5px;
+    border-radius: 10px;
+  
+}
+.search-field::before{
+    position: relative;
+    right: 14px;
+    top: -4px;
+    height: 12px;
+    width: 12px;
+}
+.search-field input{
+    height: 100%;
+    width: 100%;
+    padding: 0 45px 0 15px;
+    outline: none;
+    border: none ;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: rgb(250, 248, 248);
+}
+

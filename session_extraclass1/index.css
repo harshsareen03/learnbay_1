@@ -1,0 +1,22 @@
+.header{
+    background-color: red;
+}
+
+#jk{
+    background-color: yellow;
+}
+p{
+    background-color: violet;
+}
+
+.header{
+    margin-right: 356px;
+    margin-left: 356px;
+
+    padding-top: 5px;
+    /* display: none; */
+    position: relative;
+    top: 20px;
+
+
+}
