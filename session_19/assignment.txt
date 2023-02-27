@@ -1,0 +1,6 @@
+1)create an object and have minimum 5 values of that object 
+and create one function in that object and invoke return value in 
+one sentence
+
+2)make 12(addition,subtraction,multiplication and division) functions and use different standards of that function .
+
