@@ -1,0 +1,5 @@
+1)events and event object
+2)element selector
+3)if and else condition
+4)loop
+5)modal project in js
