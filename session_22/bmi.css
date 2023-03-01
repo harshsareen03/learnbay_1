@@ -1,0 +1,50 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(127, 127, 205);
+    color: white;
+    outline: none;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+.btn{
+    margin-bottom: 10px;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+}
+
+input{
+    width:100%;
+    padding: 5px 14px;
+    margin-bottom: 10px;
+    background-color: rgb(153, 193, 193);
+    outline: none;
+    color: rgb(228, 11, 11);
+    font-size: 15px;
+
+
+}
+input:focus{
+    border: 2px solid rgb(255, 162, 0);
+    background-color: rgb(141, 235, 90);
+}
+form{
+    background-color: rgb(94, 91, 91);
+    padding: 20px;
+    color: white;
+    box-shadow: 0 2px 4px 0 black;
+    
+}
+
+form p{
+    margin-bottom: 5px;
+
+}
+

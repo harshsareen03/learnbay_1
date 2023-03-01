@@ -1,44 +1,38 @@
 .modal{
+    background-color: aqua;
     position: fixed;
+    height: 100%;
+    width: 100%;
     left: 0;
     top: 0;
-    background-color: rgba(0,0,0,0.5);
-      opacity: 0; 
-    visibility: hidden; 
-    transform: scale(1.1);
-    transition: visibility 0s linear 0.25s;
+    opacity: 10;
+    transform: scale(1,1);
+    transition: visibility 0s linear 0.25s,opacity 0.25s,transform 0.25s;
 }
-
 .modal-content{
     position: absolute;
-    /* top: 50%;
-    left: 50%; */
-    /* transform: translate(-50%,-50%); */
-    background-color: rgb(183, 32, 32);
-    padding: 1rem 1.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
     width: 25rem;
+    text-align: center;
     border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+
 
 }
-
 .close-button{
     float: right;
     width: 1.5rem;
-    line-height: 1.5rem;
     text-align: center;
     cursor: pointer;
     border-radius: 0.25rem;
-    background-color: rgb(148, 148, 191);
-
+    background-color: rgb(240, 231, 231);
 }
+
 .close-button:hover{
-    background-color: darkgray;
-}
-
-.show-modal{
-    opacity: 1;
-    visibility: visible;
-    transform: scale(1,0);
-    transition: visibility 0s linear 0s opacity 0.25s 0s, transform 0.25s; 
+    background-color: darkgrey;
 
 }
+
